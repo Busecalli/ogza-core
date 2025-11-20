@@ -1,28 +1,32 @@
 {
-    "name": "@myorg/core",
-    "version": "1.0.0",
-    "description": "Shared Core library for Vue and Strapi projects using DDD + Clean Architecture",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-      "build": "tsc",
-      "postinstall": "npm run build"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/Busecalli/ogza-core.git"
-    },
-    "keywords": [
-      "ddd",
-      "clean-architecture",
-      "typescript",
-      "core",
-      "infrastructure"
-    ],
-    "author": "Buse ÇALLI",
-    "license": "MIT",
-    "devDependencies": {
-      "typescript": "^5.2.2"
-    }
+  "name": "@myorg/core",
+  "version": "1.0.0",
+  "description": "Shared Core library for Vue and Strapi projects using DDD + Clean Architecture",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist", 
+    "src",
+    "package.json",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Busecalli/ogza-core.git"
+  },
+  "keywords": [
+    "ddd",
+    "clean-architecture",
+    "typescript",
+    "core",
+    "infrastructure"
+  ],
+  "author": "Buse ÇALLI",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
-  
+}
