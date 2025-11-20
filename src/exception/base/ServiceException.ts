@@ -1,6 +1,6 @@
-import { BaseException } from "@/core/base/BaseException";
+import { BaseException } from "../../base/BaseException";
 import { ExceptionCode } from "../ExceptionCode";
-import { BaseCause } from "@/core/base/BaseCause";
+import { BaseCause } from "../../base/BaseCause";
 
 export class ServiceException extends BaseException {
   constructor(cause: BaseCause) {

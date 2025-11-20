@@ -1,10 +1,10 @@
-import { Result } from "@/core/utility/ResultType";
-import { BaseValidator } from "@/core/base/BaseValidator";
-import { EmailValueObject } from "@/core/value-object/EmailValueObject";
+import { Result } from "../utility/ResultType";
+import { BaseValidator } from "../base/BaseValidator";
+import { EmailValueObject } from "../value-object/EmailValueObject";
 import { StringValidator } from "./StringValidator";
-import { VALUE } from "@/core/constants/Value";
-import { ValidationException } from "@/core/exception/ValidationException";
-import { NotValidEmailCause } from "@/core/cause/NotValidEmailCause";
+import { VALUE } from "../constants/Value";
+import { ValidationException } from "../exception/ValidationException";
+import { NotValidEmailCause } from "../cause/NotValidEmailCause";
 
 export class EmailValidator extends BaseValidator<EmailValueObject> {
   validate(model: EmailValueObject): Result<EmailValueObject> {

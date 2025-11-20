@@ -1,4 +1,4 @@
 export interface ICryptography {
-  encrypt(value: any);
-  decrypt(value: any);
+  encrypt(data: string): any;
+  decrypt(data: string): any;
 }

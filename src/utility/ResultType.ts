@@ -1,4 +1,4 @@
-import { VALUE } from "@/core/constants/Value";
+import { VALUE } from "../constants/Value";
 import { BaseException } from "../base/BaseException";
 
 export class Result<T> {

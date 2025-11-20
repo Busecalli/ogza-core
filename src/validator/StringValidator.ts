@@ -1,11 +1,11 @@
-import { Result } from "@/core/utility/ResultType";
-import { BaseValidator } from "@/core/base/BaseValidator";
-import { StringValueObject } from "@/core/value-object/StringValueObject";
-import { ValidationException } from "@/core/exception/ValidationException";
-import { NullValueCause } from "@/core/cause/NullValueCause";
-import { EmptyValueCause } from "@/core/cause/EmptyValueCause";
-import { MinLengthCause } from "@/core/cause/MinLengthCause";
-import { MaxLengthCause } from "@/core/cause/MaxLengthCause";
+import { Result } from "../utility/ResultType";
+import { BaseValidator } from "../base/BaseValidator";
+import { StringValueObject } from "../value-object/StringValueObject";
+import { ValidationException } from "../exception/ValidationException";
+import { NullValueCause } from "../cause/NullValueCause";
+import { EmptyValueCause } from "../cause/EmptyValueCause";
+import { MinLengthCause } from "../cause/MinLengthCause";
+import { MaxLengthCause } from "../cause/MaxLengthCause";
 import { VALUE } from "../constants/Value";
 
 export class StringValidator extends BaseValidator<StringValueObject> {

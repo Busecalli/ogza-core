@@ -1,7 +1,7 @@
-import { IMapper } from "@/core/base/IMapper";
-import { Result } from "@/core/utility/ResultType";
-import { MapperException } from "@/core/exception/base/MapperException";
-import { UnknownCause } from "@/core/cause/UnknownCause";
+import { IMapper } from "./IMapper";
+import { Result } from "../utility/ResultType";
+import { MapperException } from "../exception/base/MapperException";
+import { UnknownCause } from "../cause/UnknownCause";
 
 export abstract class BaseMapper<BaseDomain, BaseDto>
   implements IMapper<BaseDomain, BaseDto>

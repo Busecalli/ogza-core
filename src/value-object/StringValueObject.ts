@@ -1,10 +1,10 @@
-import { BaseValueObject } from "@/core/base/BaseValueObject";
-import { Result } from "@/core/utility/ResultType";
-import { ValidationException } from "@/core/exception/ValidationException";
-import { NullValueCause } from "@/core/cause/NullValueCause";
-import { EmptyValueCause } from "@/core/cause/EmptyValueCause";
-import { MinLengthCause } from "@/core/cause/MinLengthCause";
-import { MaxLengthCause } from "@/core/cause/MaxLengthCause";
+import { BaseValueObject } from "../base/BaseValueObject";
+import { Result } from "../utility/ResultType";
+import { ValidationException } from "../exception/ValidationException";
+import { NullValueCause } from "../cause/NullValueCause";
+import { EmptyValueCause } from "../cause/EmptyValueCause";
+import { MinLengthCause } from "../cause/MinLengthCause";
+import { MaxLengthCause } from "../cause/MaxLengthCause";
 import { VALUE } from "../constants/Value";
 
 export class StringValueObject extends BaseValueObject<string> {

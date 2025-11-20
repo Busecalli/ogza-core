@@ -1,7 +1,7 @@
-import { IUsecase } from "@/core/base/IUsecase";
-import { Result } from "@/core/utility/ResultType";
-import { UseCaseException } from "@/core/exception/base/UseCaseException";
-import { UnknownCause } from "@/core/cause/UnknownCause";
+import { IUsecase } from "./IUsecase";
+import { Result } from "../utility/ResultType";
+import { UseCaseException } from "../exception/base/UseCaseException";
+import { UnknownCause } from "../cause/UnknownCause";
 
 export abstract class BaseUseCase<BaseDomain> implements IUsecase<BaseDomain> {
   protected handleUseCaseError(functionName: string): Result<BaseDomain> {

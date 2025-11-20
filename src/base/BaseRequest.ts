@@ -1,11 +1,10 @@
-import { PaginationRequestDto } from "@/domain/common/pagination/dto/PaginationRequestDto";
 import { BaseDto } from "./BaseDto";
 
 export abstract class BaseRequest extends BaseDto {
   data? = {};
   conditions? = {};
   filter? = {};
-  pagination?: PaginationRequestDto;
+  pagination?: any;
 
   constructor({
     data = {},
@@ -24,10 +23,10 @@ export abstract class BaseRequest extends BaseDto {
     this.filter = { ...filter };
 
     if (pagination) {
-      this.pagination = new PaginationRequestDto(
-        pagination.page,
-        pagination.pageSize,
-      );
+      this.pagination = {
+        size: pagination.page,
+        pageSize: pagination.pageSize,
+      };
     }
   }
 }

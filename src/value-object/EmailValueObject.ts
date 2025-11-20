@@ -1,6 +1,6 @@
-import { BaseValueObject } from "@/core/base/BaseValueObject";
-import { Result } from "@/core/utility/ResultType";
-import { EmailValidator } from "@/core/validator/EmailValidator";
+import { BaseValueObject } from "../base/BaseValueObject";
+import { Result } from "../utility/ResultType";
+import { EmailValidator } from "../validator/EmailValidator";
 import { VALUE } from "../constants/Value";
 
 export class EmailValueObject extends BaseValueObject<string> {

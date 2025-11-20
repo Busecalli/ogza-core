@@ -1,6 +1,6 @@
-import { Result } from "@/core/utility/ResultType";
-import { ServiceException } from "@/core/exception/base/ServiceException";
-import { UnknownCause } from "@/core/cause/UnknownCause";
+import { Result } from "../utility/ResultType";
+import { ServiceException } from "../exception/base/ServiceException";
+import { UnknownCause } from "../cause/UnknownCause";
 import { IService } from "./IService";
 
 export abstract class BaseService<BaseRequest, BaseResponse>

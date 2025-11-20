@@ -1,4 +1,4 @@
-import { Result } from "@/core/utility/ResultType";
+import { Result } from "../utility/ResultType";
 
 /**
  * Usecase'lerin ve onlara karşılık gelen modellerin bir haritasını tanımlar.

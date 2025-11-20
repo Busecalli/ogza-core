@@ -1,5 +1,5 @@
-import { Result } from "@/core/utility/ResultType";
-import { ValidationException } from "@/core/exception/ValidationException";
+import { Result } from "../utility/ResultType";
+import { ValidationException } from "../exception/ValidationException";
 import { ValidationErrorCause } from "../cause/ValidationErrorCause";
 
 export abstract class BaseValidator<T> {
